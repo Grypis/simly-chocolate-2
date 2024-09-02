@@ -1,0 +1,284 @@
+/* ======================= Common styles =======================  */
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #111111;
+    background-color: #fafafa;
+}
+/* ======================= /Common styles =======================  */
+
+/* ======================= Header styles =======================  */
+
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    
+} 
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #fd9222; 
+}
+
+/* ======================= /Header styles =======================  */
+
+
+/* ======================= Hero styles =======================  */
+.hero { 
+    background-color: rgba(17, 17, 17, 0.4);;
+}
+.hero-title {
+    font-weight: 500;
+font-size: 28px;
+line-height: 1.21;
+letter-spacing: -0.03em;
+color: #ffffff;
+}
+.btn {
+    font-weight: 600;
+font-size: 14px;
+color: #ffffff;
+}
+.hero-link {
+    font-weight: 600;
+font-size: 14px;
+color: #ffffff;
+}
+.hero-link-scroll {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.3;
+letter-spacing: -0.03em;
+color: #ffffff;
+}
+
+
+/* ======================= /Hero styles =======================  */
+
+/* ======================= Benefits styles =======================  */
+
+.page-benefits {
+    background-color: #1e1823;
+}
+.title-benefits {
+}
+.menu-benefits {
+}
+.menu-item-benefits {
+}
+.item-subtitle-benefits {
+    font-weight: 600;
+font-size: 18px;
+color: #ffffff;
+}
+.text-benefits {
+    font-size: 14px;
+letter-spacing: -0.02em;
+color: rgba(255, 255, 255, 0.7);
+}
+
+/* ======================= /Benefits styles =======================  */
+
+/* ======================= Taste styles =======================  */
+
+.page-taste {
+}
+.title-page-taste {
+    font-weight: 600;
+font-size: 24px;
+line-height: 1.17;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+text-align: center;
+}
+
+.span-page-taste {
+    color: #fd9222; 
+}
+
+.text-page-taste {
+    font-size: 14px;
+line-height: 1.3;
+letter-spacing: -0.02em;
+text-align: center;
+}
+.menu-page-taste {
+}
+.item-menu-page-taste {
+}
+.img-page-taste {
+}
+.subtitle-page-taste {
+    font-weight: 600;
+font-size: 14px;
+line-height: 1.3;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #ffffff;
+}
+
+/* ======================= /Taste styles =======================  */
+
+/* ======================= Made styles =======================  */
+.page-made {
+}
+.title-page-made {
+    font-weight: 600;
+font-size: 24px;
+line-height: 1.17;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+text-align: center;
+}
+
+.span-title-page-made {
+    color: #fd9222; 
+}
+
+.img-page-made {
+}
+.container-page-made {
+}
+.subtitle-page-made {
+    font-weight: 600;
+font-size: 18px;
+line-height: 1.33;
+}
+.menu-page-made {
+}
+.item-menu-page-made {
+}
+.text-page-made {
+    font-size: 14px;
+line-height: 1.3;
+letter-spacing: -0.02em;
+}
+
+/* ======================= /Made styles =======================  */
+
+/* ======================= Reviews styles =======================  */
+.page-reviews {
+}
+
+.span-title-page-reviews {
+    color: #fd9222; 
+}
+
+.title-page-reviews {
+    font-weight: 600;
+font-size: 24px;
+line-height: 1.17;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+text-align: center;
+}
+
+.menu-page-reviews {
+}
+.item-menu-page-reviews {
+}
+.img-page-reviews {
+}
+.subtitle-page-reviews {
+    font-weight: 600;
+font-size: 18px;
+line-height: 1.33;
+text-align: center;
+}
+.text-page-reviews {
+    font-size: 14px;
+line-height: 1.3;
+letter-spacing: -0.02em;
+text-align: center;
+color: rgba(17, 17, 17, 0.7);
+}
+.btn-review {
+    font-weight: 600;
+font-size: 18px;
+}
+/* ======================= /Reviews styles =======================  */
+
+
+/* ======================= Footer styles =======================  */
+.page-footer {
+    background-color: #1e1823;
+}
+.text-footer {
+    font-weight: 500;
+font-size: 28px;
+line-height: 1.21;
+letter-spacing: -0.02em;
+color: #ffffff;
+
+}
+.span-text-footer {
+    color: #fd9222;
+}
+.contact-footer {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.28571;
+text-align: center;
+color: #ffffff;
+}
+.link-contact-footer {
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.28571;
+letter-spacing: -0.02em;
+text-align: center;
+color: #ffffff;
+}
+.menu-footer {
+}
+.item-menu-footer {
+}
+.link-items-footer {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14286;
+letter-spacing: -0.02em;
+color: #ffffff;
+}
+
+.input-page-footer {
+    font-weight: 400;
+font-size: 18px;
+letter-spacing: -0.02em;
+color: rgba(255, 255, 255, 0.3);
+}
+
+.btn {
+}
+
+/* ======================= /Footer styles =======================  */
