@@ -1,6 +1,9 @@
 /* ======================= Common styles =======================  */
 ul, ol {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 a {
@@ -21,23 +24,56 @@ body {
     color: #111111;
     background-color: #fafafa;
 }
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    width: 1168px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
 /* ======================= /Common styles =======================  */
 
 /* ======================= Header styles =======================  */
+.page-header {
+    /* padding-top: 28px;
+    padding-bottom: 28px; */
+
+}
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 
 .logo {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.11;
     letter-spacing: -0.03em;
+
 }
 
 .text-italic {
     font-style: italic;
 }
 
+.menu {
+    display: flex;
+    column-gap: 24px;
+
+}
 
 .menu-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
