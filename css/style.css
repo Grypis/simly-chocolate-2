@@ -67,11 +67,17 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.11;
     letter-spacing: -0.03em;
 
+}
+
+.logo-icon {
+    margin-left: 4px;
 }
 
 .text-italic {
