@@ -16,7 +16,7 @@
   <body>
     <!-- header  -->
     <header class="page-header">
-      <div class="container">
+      <div class="container page-header-container">
         <nav class="page-nav">
         <a class="logo" href="./index.html"><span class="logo-italic">SIMPLY</span>&nbsp;CHOCOLATE
           <svg 
@@ -36,10 +36,18 @@
             <a class="menu-link" href="#reviews">Chocolate is loved</a></li>
         </ul>
       </nav>
-      <!-- <ul>
-        <li>insta</li>
-        <li>twitter</li>
-      </ul> -->
+      <ul class="social-list">
+        <li class="social-list-item"> <a href="/" class="social-list-link">
+          <svg class="social-list-icon" width="24" height="24">
+            <use href="./images/icons/sprite.svg#icon-instagram" aria-label="instagram icon"></use>
+          </svg>
+        </a></li>
+        <li class="social-list-item"> <a href="/" class="social-list-link">
+          <svg class="social-list-icon" width="24" height="24">
+            <use href="./images/icons/sprite.svg#icon-twitter" aria-label="twitter icon"></use>
+          </svg>
+        </a></li>
+      </ul>
       </div>
       
     </header>
@@ -49,14 +57,32 @@
       <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">
-          Treat yourself or a loved one to our finest ingredients for a moment
-          of pure delight!
-        </h1>
-        <button class="btn" type="button">Buy now</button>
-        <a class="hero-link" href="#made">How it’s made</a>
-        <a class="hero-link-scroll" href="#benefits">scroll down</a>
+            Treat yourself or a loved one to our finest ingredients for a moment
+            of pure delight!
+          </h1>
+          <div class="hero-grand-box">
+            <div class="hero-middle-box">
+                <button class="btn" type="button">Buy now</button>
+                <a za class="hero-link" href="#made">How it’s made</a>
+            </div>
+            
+            <div class="hero-submiddle-box">
+              <a class="hero-link-scroll" href="#benefits">scroll down 
+                <svg 
+                    class="hero-link-button" 
+                    width="32" 
+                    height="32"
+                    aria-label="scroll">
+                      <use href="./images/icons/sprite.svg#icon-scroll"></use>
+                </svg>
+              </a>
+            </div>
+            
+          </div>
+           
         </div>
       </section>
+
       <!-- benefits -->
       <section class="page-benefits" id="benefits">
         <div class="container">
@@ -114,6 +140,14 @@
               height="160"
             />
             <h3 class="subtitle-page-taste">milk chocolate</h3>
+            <div class="ingredient-overlay">
+              <h3 class="ingredient-overlay-title">Milk chocolate</h3>
+              <ul class="ingredient-overlay-list">
+                <li class="ingredient-overlay-item"><p class="ingredient-overlay-uppertext-full">chocolate</p></li>
+                <li class="ingredient-overlay-item"><p class="ingredient-overlay-uppertext-empty">the benefits</p></li>
+              </ul>
+              <p class="ingredient-overlay-text">Milk chocolate is a solid chocolate confectionery containing cocoa, sugar and milk. It is the most consumed type of chocolate. Chocolate was originally sold and consumed as a beverage in pre-Columbian times. Although four-fifths of all milk chocolate is sold in the United States and Europe.</p>
+            </div>
           </li>
           <li class="item-menu-page-taste">
             <img 
@@ -123,6 +157,14 @@
               width="206"
               height="160"/>
             <h3 class="subtitle-page-taste">Milk</h3>
+            <div class="ingredient-overlay">
+              <h3 class="ingredient-overlay-title">Milk</h3>
+              <ul class="ingredient-overlay-list">
+                <li class="ingredient-overlay-item"><p class="ingredient-overlay-uppertext-full">milk</p></li>
+                <li class="ingredient-overlay-item"><p class="ingredient-overlay-uppertext-empty">the benefits</p></li>
+              </ul>
+              <p class="ingredient-overlay-text">Milk is a white liquid food produced by the mammary glands of mammals. It is the primary source of nutrition for young mammals (including breastfed human infants) before they are able to digest solid food.Early-lactation milk, which is called colostrum, contains antibodies that strengthen the immune system.</p>
+            </div>
           </li>
           <li class="item-menu-page-taste">
             <img 
@@ -132,6 +174,14 @@
               width="206"
               height="160"/>
             <h3 class="subtitle-page-taste">Nuts</h3>
+            <div class="ingredient-overlay">
+              <h3 class="ingredient-overlay-title">Nuts</h3>
+              <ul class="ingredient-overlay-list">
+                <li class="ingredient-overlay-item"><p class="ingredient-overlay-uppertext-full">Nuts</p></li>
+                <li class="ingredient-overlay-item"><p class="ingredient-overlay-uppertext-empty">the benefits</p></li>
+              </ul>
+              <p class="ingredient-overlay-text">Almonds, pistachios, and walnuts are some types of nuts that contain healthy nutrients. When eaten as part of a nutrient-dense diet, these 9 nuts may offer benefits such as reducing your risk of heart disease. They’re a good source of fiber, healthy fats, and plant protein. Plus, they’re great on their own.</p>
+            </div>
           </li>
           <li class="item-menu-page-taste">
             <img
@@ -142,6 +192,14 @@
               height="160"
             />
             <h3 class="subtitle-page-taste">SEMI - SWEET CHOCOLATE</h3>
+            <div class="ingredient-overlay">
+              <h3 class="ingredient-overlay-title">semi - sweet chocolate</h3>
+              <ul class="ingredient-overlay-list">
+                <li class="ingredient-overlay-item"><p class="ingredient-overlay-uppertext-full">sweet chocolate</p></li>
+                <li class="ingredient-overlay-item"><p class="ingredient-overlay-uppertext-empty">the benefits</p></li>
+              </ul>
+              <p class="ingredient-overlay-text">Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One of the best ways to gain an understanding of this type of chocolate is to compare it to a different type of chocolate. Semisweet is darker than milk chocolate. In a taste comparison, it has a slightly bitter taste whereas milk chocolate is sweeter and more mellow.</p>
+            </div>
           </li>
         </ul>
         </div>
@@ -234,27 +292,34 @@
 
     <!-- footer -->
     <footer class="page-footer">
-      <div class="container">
+      <div class="container footer-container">
         <div class="test">
           <strong class="text-footer"><span class="span-text-footer">Chocolate</span> a delicious cure for a bad day</strong>
-      <address class="contact-footer">
-        Contact us
-        <a class="link-contact-footer" href="tel:+380684439426">+380 (68) 443-94-26</a>
-        <a class="link-contact-footer" href="mailto:simplycthoc@gmail.com">simplycthoc@gmail.com</a>
-      </address>
+
+            <address class="contact-footer">
+              Contact us
+              <a class="link-contact-footer" href="tel:+380684439426">+380 (68) 443-94-26</a>
+              <a class="link-contact-footer" href="mailto:simplycthoc@gmail.com">simplycthoc@gmail.com</a>
+            </address>
         </div>
-      <ul class="menu-footer">
-        <li class="item-menu-footer">
-          <a class="link-items-footer" href="./index.html">Home</a></li>
-        <li class="item-menu-footer">
-          <a class="link-items-footer" href="#made">How it’s made?</a></li>
-        <li class="item-menu-footer">
-          <a class="link-items-footer" href="#reviews">Chocolate is loved</a></li>
-      </ul>
-      <form action="#">
-        <input class="input-page-footer" type="email" placeholder="Enter your email" />
-        <button class="btn" type="button">Subscribe</button>
-      </form>
+
+
+
+          <div class="test-below">
+              <ul class="menu-footer">
+          <li class="item-menu-footer">
+            <a class="link-items-footer" href="./index.html">Home</a></li>
+          <li class="item-menu-footer">
+            <a class="link-items-footer" href="#made">How it’s made?</a></li>
+          <li class="item-menu-footer">
+            <a class="link-items-footer" href="#reviews">Chocolate is loved</a></li>
+          </ul>
+          <form action="#">
+            <input class="input-page-footer" type="email" placeholder="Enter your email" />
+            <button class="btn" type="button">Subscribe</button>
+          </form>
+          </div>
+        
       </div>
     </footer>
   </body>
