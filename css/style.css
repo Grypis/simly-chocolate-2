@@ -125,6 +125,8 @@ p {
     font-style: italic;
 }
 
+
+
 @media only screen and (max-width: 767px) {
 
     .menu,
@@ -361,6 +363,7 @@ p {
     justify-content: center;
     border-radius: 100px;
     min-width: 120px;
+    height: 41px;
     margin-right: 14px;
     font-weight: 600;
     font-size: 14px;
@@ -390,6 +393,7 @@ p {
     border: 1px solid #ffffff;
     border-radius: 100px;
     min-width: 159px;
+    height: 41px;
     outline: none;
     transition: color 250ms linear, border-color 250ms linear;
 }
@@ -544,3 +548,97 @@ p {
 }
 
 /* ======================= /Hero styles =======================  */
+
+/* ======================= Benefits styles =======================  */
+.page-benefits {
+    background-color: #1e1823;
+}
+
+.menu-benefits {
+    padding: 20px 47px 20px 20px;
+    gap: 20px;
+}
+
+
+.menu-item-benefits {
+    margin-bottom: 20px;
+}
+.menu-item-icon {
+    fill: #fd9222;
+    
+
+}
+
+.container-for-svg {
+    width: 62px;
+    height: 62px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 365px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+.item-subtitle-benefits {
+    margin-bottom: 18px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+}
+.text-benefits {
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media only screen and (min-width: 768px) {
+    .menu-benefits {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .menu-item-benefits {
+        max-width: 308px;
+    }
+}
+
+@media only screen and (min-width: 1168px) {
+    .page-benefits {
+        padding: 50px;
+    }
+
+    .menu-benefits {
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .menu-item-benefits {
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-right: 70px;
+        
+    }
+
+     .menu-item-benefits-div {
+        width: 326px;
+     }
+
+    .menu-item-benefits-div:nth-child(odd)::after {
+        content: "";
+        position: absolute;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        width: 1px;
+        height: 50%;
+        bottom: 25%;
+        right: 0;
+    }
+
+
+    .text-benefits {
+        margin-right: 18px;
+    }
+}
+/* ======================= /Benefits styles =======================  */
