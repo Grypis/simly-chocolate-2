@@ -599,7 +599,7 @@ p {
     }
 
     .menu-item-benefits {
-        max-width: 308px;
+        max-width: 320px;
     }
 }
 
@@ -611,14 +611,13 @@ p {
     .menu-benefits {
         flex-wrap: nowrap;
         justify-content: center;
-        gap: 0;
+        gap: 70px;
     }
 
     .menu-item-benefits {
         position: relative;
         display: flex;
         flex-wrap: nowrap;
-        margin-right: 70px;
         
     }
 
@@ -626,7 +625,11 @@ p {
         width: 326px;
      }
 
-    .menu-item-benefits-div:nth-child(odd)::after {
+     .vertical-line {
+        position: relative;
+     }
+
+     .vertical-line::after {
         content: "";
         position: absolute;
         border: 1px solid rgba(255, 255, 255, 0.5);
@@ -634,11 +637,52 @@ p {
         height: 50%;
         bottom: 25%;
         right: 0;
-    }
-
+     }
+    
 
     .text-benefits {
         margin-right: 18px;
     }
 }
 /* ======================= /Benefits styles =======================  */
+
+/* ======================= Taste styles =======================  */
+.page-taste {
+    padding: 60px 20px;
+}
+
+.title-page-taste {
+    width: 283px;
+    padding-bottom: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+text-align: center;
+}
+
+.span-page-taste {
+    color: #fd9222; 
+}
+
+.text-page-taste {
+    min-width: 335px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 14px;
+line-height: 1.3;
+letter-spacing: -0.02em;
+text-align: center;
+margin-bottom: 32px;
+}
+
+.menu-page-taste {
+   margin-bottom: 20px;
+    
+}
+
+
+/* ======================= /Taste styles =======================  */
