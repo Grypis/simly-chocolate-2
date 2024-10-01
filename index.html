@@ -167,9 +167,15 @@
           <li class="item-menu-page-taste">
             <picture>
               <source 
-              srcset="./images/taste/desktop/milk-chocolate-min.png 1x, ./images/taste/desktop/milk-chocolate@2x-min.png 2x"
+              srcset="
+              ./images/taste/desktop/milk-chocolate-min.png 1x, 
+              ./images/taste/desktop/milk-chocolate@2x-min.png 2x"
               media="(min-width: 1168px)"
               />
+
+              <source srcset="./images/taste/mobile/milk-chocolate-m-min.png 1x,
+              ./images/taste/mobile/milk-chocolate-m@2x-min.png 2x"
+              media="(min-width: 320px)">
               
               <img
               class="img-page-taste" 
@@ -189,12 +195,26 @@
             </div>
           </li>
           <li class="item-menu-page-taste">
-            <img 
+
+            <picture>
+              <source 
+              srcset="
+              ./images/taste/desktop/milk-min.png 1x, 
+              ./images/taste/desktop/milk@2x-1-min.png 2x"
+              media="(min-width: 1168px)"
+              />
+
+              <source srcset="./images/taste/mobile/milk-m-min.png 1x,
+              ./images/taste/mobile/milk-m@2x-1-min.png 2x"
+              media="(min-width: 320px)">
+              
+              <img
               class="img-page-taste" 
-              src="./images/taste/milk-min.png" 
-              alt="Milk"   
-              width="206"
-              height="160"/>
+              src="./images/taste/mobile/milk-m-min.png"
+              alt="mILK CHOCOLATE"
+            />
+            </picture>
+
             <h3 class="subtitle-page-taste">Milk</h3>
             <div class="ingredient-overlay">
               <h3 class="ingredient-overlay-title">Milk</h3>
@@ -206,12 +226,26 @@
             </div>
           </li>
           <li class="item-menu-page-taste">
-            <img 
+            <picture>
+              <source 
+              srcset="
+              ./images/taste/desktop/nuts-min.png 1x, 
+              ./images/taste/desktop/nuts@2x-2-min.png 2x"
+              media="(min-width: 1168px)"
+              />
+
+              <source srcset="
+              ./images/taste/mobile/nuts-m-min.png 1x,
+              ./images/taste/mobile/nuts-m@2x-2-min.png 2x"
+              media="(min-width: 320px)">
+              
+              <img
               class="img-page-taste" 
-              src="./images/taste/nuts-min.png" 
-              alt="Nuts" 
-              width="206"
-              height="160"/>
+              src="./images/taste/mobile/nuts-m-min.png"
+              alt="mILK CHOCOLATE"
+            />
+            </picture>
+
             <h3 class="subtitle-page-taste">Nuts</h3>
             <div class="ingredient-overlay">
               <h3 class="ingredient-overlay-title">Nuts</h3>
@@ -223,13 +257,27 @@
             </div>
           </li>
           <li class="item-menu-page-taste">
-            <img
+
+            <picture>
+              <source 
+              srcset="
+              ./images/taste/desktop/semi-sweet-chocolate-min.png 1x, 
+              ./images/taste/desktop/semi-sweet-chocolate@2x-min.png 2x"
+              media="(min-width: 1168px)"
+              />
+
+              <source srcset="
+              ./images/taste/mobile/semi-sweet-chocolate-m-min.png 1x,
+              ./images/taste/mobile/semi-sweet-chocolate-m@2x-min.png 2x"
+              media="(min-width: 320px)">
+              
+              <img
               class="img-page-taste" 
-              src="./images/taste/semi-sweet-chocolate-min.png"
-              alt="sEMI - SWEET CHOCOLATE"
-              width="206"
-              height="160"
+              src="./images/taste/mobile/semi-sweet-chocolate-m-min.png"
+              alt="mILK CHOCOLATE"
             />
+            </picture>
+
             <h3 class="subtitle-page-taste">SEMI - SWEET CHOCOLATE</h3>
             <div class="ingredient-overlay">
               <h3 class="ingredient-overlay-title">semi - sweet chocolate</h3>
@@ -246,7 +294,7 @@
       </section>
 
     <!-- made section -->
-    <!-- <section class="page-made">
+    <section class="page-made">
         <div class="container">
             <h2 class="title-page-made" id="made">HOW IT’S <span class="span-title-page-made">made?</span></h2>
             <div class="page-made-cont-info">
@@ -275,7 +323,7 @@
             </div>
         
         </div>
-      </section> -->
+      </section>
 
     <!-- reviews -->
     <!-- <section class="page-reviews" id="reviews">
