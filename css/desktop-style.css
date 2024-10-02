@@ -611,7 +611,6 @@ color: rgba(17, 17, 17, 0.7);
 
 .text-footer { 
     width: 300px;
-    /* margin-right: 672px; */
     font-weight: 500;
 font-size: 28px;
 line-height: 1.21;
@@ -890,9 +889,6 @@ margin-bottom: 40px;
 }
 
 
-.review-form-own-checkbox-icon {
-
-}
 
 .review-form-submit-btn {
     border-radius: 100px;
