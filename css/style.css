@@ -1242,10 +1242,10 @@ height: 45px;
     transition: opacity 250ms linear, visibility 250ms linear ;
 }
 
-.backdrop.is-open {
+/* .backdrop.is-open {
     opacity: 1;
     visibility: visible;
-}
+} */
 /* ======================= /Backdrop styles =======================  */
 
 /* ======================= Modal styles =======================  */
